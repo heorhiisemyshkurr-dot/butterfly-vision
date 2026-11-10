@@ -1,0 +1,18 @@
+# Модель: большой файл, его место в релизах, а не в истории git.
+*.onnx
+*.pt
+runs/
+
+# Сборка capture.exe и пакеты Python.
+build/
+dist/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Секреты.
+.env
+.env.*
+*.key
+*.pem

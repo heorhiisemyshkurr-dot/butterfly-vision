@@ -1,0 +1,19 @@
+# YOLO11 dataset configuration for Rust player detection
+# Dataset: Roboflow rust-1gc55 v616  (CC BY 4.0)
+
+path: ../datasets/rust-dataset   # root dataset directory
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 9
+names:
+  0: Naked
+  1: Cloth
+  2: Leather
+  3: RoadSign
+  4: Metal
+  5: Hazmat
+  6: Heavy
+  7: Scientist
+  8: Head
